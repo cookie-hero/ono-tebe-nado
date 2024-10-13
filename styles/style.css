@@ -52,7 +52,7 @@ header {
   height: 757px;
   font-family: Raleway;
   background-color: grey;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
 }
 
@@ -74,7 +74,6 @@ header {
   display: block;
   padding-top: 20px;
   line-height: 100px;
-  line-height: 1;
   text-align: center;
 }
 
@@ -82,7 +81,6 @@ header {
   display: block;
   padding-top: 20px;
   line-height: 100px;
-  line-height: 1;
   text-align: right;
 }
 
@@ -197,19 +195,19 @@ header {
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -226,6 +224,7 @@ header {
 .about {
   display: grid;
   grid-template-columns: 312px 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   margin-top: 183px;
   margin-left: 71px;
 }
@@ -251,7 +250,7 @@ header {
 }
 
 .about__title {
-  align-content: center;
+  align-self: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
@@ -279,6 +278,7 @@ header {
   gap: 185px;
   padding-top: 180px;
   padding-bottom: 88px;
+  padding-left: 50px;
 }
 
 .footer__menu {
@@ -294,6 +294,7 @@ header {
   font-size: 18px;
   line-height: 21.13px;
   text-underline-offset: 4px;
+  text-align: center;
 }
 
 .footer__menu-link {
@@ -308,7 +309,7 @@ header {
 .footer__social-list {
   display: inline-flex;
   gap: 48px;
-  margin-right: 50px;
+  padding-right: 50px;
   list-style-type: none;
 }
 
